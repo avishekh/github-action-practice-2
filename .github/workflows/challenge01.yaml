@@ -23,7 +23,7 @@ jobs:
       run: date '+%Y-%m-%d'
     
   job4:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     needs: [job1, job2, job3]
     steps:
     - uses: actions/checkout@v1
