@@ -8,19 +8,19 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: print date 
-    - run: date '+%Y-%m-%d'
+      run: date '+%Y-%m-%d'
   job2:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v1
     - name: print date 
-    - run: Get-Date
+      run: Get-Date
   job3:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
     - name: print date 
-    - run: date '+%Y-%m-%d'
+      run: date '+%Y-%m-%d'
     
   job4:
     runs-on: ubunto-latest
@@ -28,4 +28,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: print date 
-    - run: date '+%Y-%m-%d'
+      run: date '+%Y-%m-%d'
